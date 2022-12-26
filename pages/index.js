@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../components/About';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -14,7 +15,7 @@ export default function Home(props) {
     console.log(e.target.textContent);
   }
   return (
-    <>
+    <div className='min-h-screen'>
       <Head>
         <title>MILAAN</title>
         <meta name="Community Website" content="Managed and Developed By Inderjit Shahi" />
@@ -23,9 +24,9 @@ export default function Home(props) {
       </Head>
       <Header/>
       <Banner/>
+      <About/>
       <Footer/>
-
-    </>
+    </div>
   )
 }
 
