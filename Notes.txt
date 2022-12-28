@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/71875270/how-to-install-the-tailwind-elements-in-nextjs
