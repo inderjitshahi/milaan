@@ -9,7 +9,7 @@ function About(props) {
     return (
         <div className='my-5  flex flex-col-reverse items-center justify-center sm:grid sm:grid-cols-12  sm:pl-5 relative'>
             <div className='sm:col-span-8 flex flex-col'>
-                <div className='space-y-5 pl-3'>
+                <div className='space-y-5 '>
                     <h2 className='text-2xl font-bold flex items-center space-x-3'><AiOutlineMenuUnfold /><span>Who We Are</span></h2>
                     <div className='pl-5 sm:pr-10'>
                         <p className='font-semibold text-gray-500'>
@@ -19,24 +19,24 @@ function About(props) {
                         </p>
                     </div>
                 </div>
-                <div className='space-y-5 mt-5 px-2'>
+                <div className='space-y-5 mt-5'>
                     <h2 className='text-2xl font-bold flex items-center space-x-3'><AiOutlineMenuUnfold /><span>Benefits</span></h2>
                     <div className='pl-5 text-gray-500'>
                         <ul>
                             <li className='flex items-center space-x-3 font-semibold'>
-                                <TbHeartPlus />
+                                <TbHeartPlus className='text-pink-500'/>
                                 <span>Networking- Social & Professional</span>
                             </li>
                             <li className='flex items-center space-x-3 font-semibold'>
-                                <TbHeartPlus />
+                                <TbHeartPlus className='text-pink-500'/>
                                 <span>Knowledge Sharing</span>
                             </li>
                             <li className='flex items-center space-x-3 font-semibold'>
-                                <TbHeartPlus />
+                                <TbHeartPlus className='text-pink-500'/>
                                 <span>Continuous Learning</span>
                             </li>
                             <li className='flex items-center space-x-3 font-semibold'>
-                                <TbHeartPlus />
+                                <TbHeartPlus className='text-pink-500'/>
                                 <span>Peer Support</span>
                             </li>
                         </ul>
