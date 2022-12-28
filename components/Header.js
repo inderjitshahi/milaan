@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 function Header(props) {
-    const [dark, setDark] = useState(false);
+    const [dark, setDark] = useState(true);
     useEffect(() => {
         console.log(dark);
         if (dark) {
