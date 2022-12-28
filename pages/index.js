@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script';
@@ -6,9 +5,9 @@ import About from '../components/About';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Gallery from '../components/Gallery';
 import Founders from '../components/Founders';
 import { Fade, Zoom } from 'react-awesome-reveal';
+import Gallery from '../components/Gallery';
 
 export default function Home(props) {
   // console.log(props);
@@ -37,7 +36,7 @@ export default function Home(props) {
         <About />
       </Zoom>
       <Zoom>
-        <Gallery />
+        <Gallery/>
       </Zoom>
       <Zoom>
         <Founders />
