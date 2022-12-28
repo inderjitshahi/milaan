@@ -78,7 +78,7 @@ function About(props) {
                                 <span> Days: <span>1 Days</span></span>
                             </li>
                         </ul>
-                        <button className='bg-purple-500 p-3 font-bold text-white rounded-lg'>
+                        <button className='bg-purple-500 p-3 font-bold text-white dark:text-black rounded-lg'>
                             <Link href='https://www.instagram.com/milaan_dtu/' target='_blank'>Register Now</Link>
                         </button>
                     </div>

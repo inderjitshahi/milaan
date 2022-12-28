@@ -8,17 +8,20 @@ import Header from '../components/Header';
 import Founders from '../components/Founders';
 import { Fade, Zoom } from 'react-awesome-reveal';
 import Gallery from '../components/Gallery';
+import { useEffect, useState } from 'react';
 
 export default function Home(props) {
   // console.log(props);
   const data = Object.values(props);
+
+ 
 
   console.log(data);
   const fun = (e) => {
     console.log(e.target.textContent);
   }
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen dark:bg-black'>
       <Head>
         <title>MILAAN</title>
         <meta name="Community Website" content="Managed and Developed By Inderjit Shahi" />

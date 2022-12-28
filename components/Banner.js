@@ -6,15 +6,15 @@ import { GiPublicSpeaker, GiTakeMyMoney, GiCalendar } from 'react-icons/gi'
 function Banner(props) {
     return (
         <div className='bg-purple-600  grid gird-rows-2 md:grid-cols-2 justify-center items-center'>
-            <div className='flex flex-col justify-center items-center py-5'>
-                <h2 className='font-semibold text-2xl'>Want To Grow</h2>
-                <Link className='font-bold text-3xl' target='_blank' href='https://www.instagram.com/milaan_dtu/'>Register Now</Link>
-                <div className='grid grid-cols-2 gap-x-5  sm:gap-x-16 mt-5 gap-y-5 text-sm sm:text-lg text-white m-auto'>
+            <div className='flex flex-col justify-center items-center py-5 '>
+                <h2 className='font-semibold text-2xl text-white dark:text-black'>Want To Grow</h2>
+                <Link className='font-bold text-3xl text-white dark:text-black' target='_blank' href='https://www.instagram.com/milaan_dtu/'>Register Now</Link>
+                <div className='grid grid-cols-2 gap-x-5  sm:gap-x-16 mt-5 gap-y-5 text-sm sm:text-lg text-white m-auto dark:text-black'>
 
                     <div className='flex flex-col items-center text-center justify-center'>
                         <span ><Link href='https://goo.gl/maps/VKBUEEabmgp3Ty1b8' target="_blank" className='text-center flex items-center'><FiMapPin />Location</Link></span>
                     </div>
-                    <div className='flex flex-col items-center text-center justify-center '>
+                    <div className='flex flex-col items-center text-center justify-center'>
                         <span className='flex items-center'>
                             <GiPublicSpeaker />Speakers
                         </span>

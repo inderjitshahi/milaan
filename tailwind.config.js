@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./node_modules/tw-elements/dist/js/**/*.js"
   ],
+  darkMode:"class",
   theme: {
     extend: {},
   },
