@@ -1,17 +1,20 @@
+
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script';
 import About from '../components/About';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-
+import Gallery from '../components/Gallery';
+import Founders from '../components/Founders';
 
 export default function Home(props) {
   // console.log(props);
   const data = Object.values(props);
 
   console.log(data);
-  const fun=(e)=>{
+  const fun = (e) => {
     console.log(e.target.textContent);
   }
   return (
@@ -22,10 +25,13 @@ export default function Home(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
-      <Banner/>
-      <About/>
-      <Footer/>
+      <Script src="/node_modules/tw-elements/dist/js/index.min.js"></Script>
+      <Header />
+      <Banner />
+      <About />
+      <Gallery/>
+      <Founders/>
+      <Footer />
     </div>
   )
 }
