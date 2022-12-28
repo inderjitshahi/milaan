@@ -11,8 +11,9 @@ function Header(props) {
                     alt='LOGO'
                 />
             </div>
-            <div>
+            <div className='space-x-5'>
                 <Link href='https://www.instagram.com/milaan_dtu/' target='_blank'>Join Now</Link>
+                <Link href='https://is-blog.vercel.app/' target='_blank'>Blog</Link>
             </div>
         </div>
     );
