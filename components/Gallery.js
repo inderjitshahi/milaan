@@ -4,7 +4,7 @@ import { AiOutlineMenuUnfold } from 'react-icons/ai';
 function Gallery(props) {
     return (
         <div className='md:py-10 my-10 space-y-5'>
-            <h2 className='text-2xl font-bold flex items-center space-x-3 pl-5 '><AiOutlineMenuUnfold/><span>Gallery</span></h2>
+            <h2 className='text-2xl font-bold flex items-center space-x-3 pl-5 '><AiOutlineMenuUnfold /><span>Gallery</span></h2>
             <div
                 id="carouselDarkVariant"
                 className="carousel slide carousel-fade carousel-dark relative md:px-32 "

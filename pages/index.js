@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Gallery from '../components/Gallery';
 import Founders from '../components/Founders';
+import { Fade, Zoom } from 'react-awesome-reveal';
 
 export default function Home(props) {
   // console.log(props);
@@ -26,12 +27,24 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script src="/node_modules/tw-elements/dist/js/index.min.js"></Script>
-      <Header />
-      <Banner />
-      <About />
-      <Gallery/>
-      <Founders/>
-      <Footer />
+      <Zoom>
+        <Header />
+      </Zoom>
+      <Zoom>
+        <Banner />
+      </Zoom>
+      <Zoom>
+        <About />
+      </Zoom>
+      <Zoom>
+        <Gallery />
+      </Zoom>
+      <Zoom>
+        <Founders />
+      </Zoom>
+      <Zoom>
+        <Footer />
+      </Zoom>
     </div>
   )
 }
